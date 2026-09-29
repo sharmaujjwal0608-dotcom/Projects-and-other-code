@@ -1,0 +1,107 @@
+/* ============================================
+   Pulsing CTA Button — Write your styles below
+   ============================================
+
+   Style the hero section so that:
+
+   1. Content is centered horizontally and vertically
+   2. Button has colored background and rounded corners
+   3. Button has a continuous CSS animation (@keyframes)
+   4. Title is above subtitle, subtitle above button
+   5. Title has larger font than subtitle
+
+   Use @keyframes to create any animation:
+   pulse, glow, bounce, etc.
+   ============================================ */
+@keyframes pulse {
+
+   0%,
+   100% {
+      transform: scale(1);
+   }
+
+   50% {
+      transform: scale(1.05);
+   }
+}
+
+.cta-btn {
+   animation: pulse 2s infinite;
+   border-radius: 20px;
+}
+
+/* ============================================
+   Pulsing CTA Button — Write your styles below
+   ============================================
+
+   Style the hero section so that:
+
+   1. Content is centered horizontally and vertically
+   2. Button has colored background and rounded corners
+   3. Button has a continuous CSS animation (@keyframes)
+   4. Title is above subtitle, subtitle above button
+   5. Title has larger font than subtitle
+
+   Use @keyframes to create any animation:
+   pulse, glow, bounce, etc.
+   ============================================ */
+@keyframes pulse {
+
+   0%,
+   100% {
+      transform: scale(1);
+   }
+
+   50% {
+      transform: scale(1.05);
+   }
+}
+
+.cta-btn {
+   animation: pulse 2s infinite;
+   border-radius: 20px;
+}
+
+
+/* for pulse animation */
+
+/* @keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+} */
+
+
+
+/* for glow animation */
+
+/* @keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(67, 97, 238, 0);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(67, 97, 238, 0.6);
+  }
+} */
+
+
+
+/* Bounce animation */
+
+/* @keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+} */

@@ -1,0 +1,38 @@
+/* ============================================
+   CSS Loading Spinner — Write your styles below
+   ============================================
+
+   Style the loading spinner so that:
+
+   1. Spinner is visible and circular
+   2. Spinner has a visible border/background for spinning effect
+   3. Spinner has a continuous rotation animation (@keyframes)
+   4. Spinner is centered horizontally on the page
+   5. "Loading..." text appears below the spinner, centered
+   6. Loader container is vertically centered
+
+   Use @keyframes to rotate the spinner 360 degrees!
+   ============================================ */
+
+.loader-container{
+   display: flex;
+   padding: 175px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.spinner {
+   width: 48px;
+   height: 48px;
+   border: 4px solid #e0e0e0;
+   border-top-color: #4361ee;
+   border-radius: 50%;
+   animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+   to {
+      transform: rotate(360deg);
+   }
+}
